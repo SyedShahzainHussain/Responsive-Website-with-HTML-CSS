@@ -1,0 +1,86 @@
+/* navigation */
+#navbor {
+    flex-direction: column;
+}
+
+/* home */
+#Home {
+    height: 130px;
+}
+
+#Home::before {
+    height: 380px;
+}
+
+#Home h1 {
+    font-size: 2rem;
+}
+
+#Home p {
+    font-size: 1rem;
+}
+
+#navbor ul li a {
+    padding: 0px 12px;
+    font-size: 1rem;
+    /* padding-bottom: 8px; */
+}
+
+/* service */
+
+#services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .box img {
+    width: 115px;
+    height: 100px;
+}
+
+#services .box {
+    margin-top: 0px;
+}
+
+/* clients */
+#clients {
+    flex-wrap: wrap;
+}
+
+
+
+.clients_items-img1 {
+    width: 40px;
+}
+
+.clients_items-img2 {
+    width: 60px;
+}
+
+.clients_items-img3 {
+    width: 50px;
+}
+
+.clients_items-img4 {
+    width: 50px;
+}
+
+.clients-items {
+    padding: 15px;
+}
+/* contact */
+.form-group{
+    width: 80%;
+}
+
+
+/* fotter */
+
+
+
+
+/* utility */
+.btn {
+    font-size: 12px;
+}

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbor {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbor::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.h-primary {
+    text-align: center;
+}
+
+
+
+#logo img {
+    /* margin: 4px 7px; */
+    width: 100px;
+    /* height: 50px; */
+}
+
+#navbor ul {
+    display: flex;
+}
+
+#navbor ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+#navbor ul li a {
+    padding: 12px 36px;
+    /* margin: 2px 2px; */
+    color: white;
+    text-decoration: none;
+    /* display: block; */
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbor ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    margin-top: 100px;
+    /* height: 430px; */
+}
+
+#Home::before {
+    content: "";
+    background: url('home.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+.h-primary {
+    font-size: 34px;
+    padding: 2px 32px;
+}
+
+#Home h1 {
+    font-size: 44px;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Home p {
+    font-size: 20px;
+    padding: 2px 23px;
+    margin: 1px 1px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 6px 20px;
+    margin: 17px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+/* 2nd section */
+
+#services-container {
+    margin-top: 60px;
+}
+
+#services {
+    margin: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#services .box {
+    border: 2px solid black;
+    margin: 2px 4px;
+    padding: 23px;
+    border-radius: 23px;
+    background-color: #dcd4d4;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-; */
+}
+
+#services .box img {
+    width: 160px;
+    display: block;
+    margin: auto;
+    /* height: 250px; */
+}
+
+.box__content {
+    text-align: center;
+}
+
+#services h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#client-container {
+    position: relative;
+    /* height: 120px; */
+    margin-top: 50px;
+}
+
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-items {
+    padding: 2px 55px;
+}
+
+.clients_items-img1 {
+    width: 50px;
+}
+
+.clients_items-img2 {
+    width: 80px;
+}
+
+.clients_items-img3 {
+    width: 60px;
+}
+
+.clients_items-img4 {
+    width: 60px;
+}
+
+#client-container::before {
+    content: "";
+    position: absolute;
+    background: url("https://wallpaperforu.com/wp-content/uploads/2021/04/Wallpaper-Food-Still-Life-Wooden-Surface-2048x1342px-1023.jpg");
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#contact {
+    margin-top: 8px;
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url("https://media.istockphoto.com/photos/contact-us-concept-icon-telephone-address-and-email-on-blue-3d-picture-id1312566254?b=1&k=20&m=1312566254&s=170667a&w=0&h=6a3bBX8L-53D30tKFVAQlA6_3lclcsWThP1ZVTDwcGE=") no-repeat center center/cover;
+    width: 100%;
+    height: 510px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.contact-box form {
+    width: 50%;
+}
+
+.contact-box label {
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
